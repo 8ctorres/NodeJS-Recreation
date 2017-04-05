@@ -1,29 +1,24 @@
 nav{
   height: 100px;
-  width: 50%;
+  width: auto;
   margin: 0 auto;
 }
 
 div.topimg{
   height: 150px;
-  width: 400px;
+  width: 1250px;
   margin: 0 auto;
   margin-bottom: 50px;
 }
 
 div.topimg img{
-  background-color: grey;
+  background-color: #111;
   height: inherit;
   width: inherit;
 }
 
-div.mainimg{
-height: 250px;
-width: 1000px;
-margin: 0 auto;
-}
-
 div.mainimg img{
-height: inherit;
-width: inherit;
+height: 200px;
+width: auto;
+margin: 0 auto;
 }
