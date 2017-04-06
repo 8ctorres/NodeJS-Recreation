@@ -1,24 +1,78 @@
+header{
+  margin-bottom: 25px;
+}
+
 nav{
-  height: 100px;
-  width: auto;
+  height: 50px;
+  width: 1300px;
   margin: 0 auto;
+  background-color: #222;
+}
+
+nav a{
+  font-size: 18px;
+  color: white;
 }
 
 div.topimg{
   height: 150px;
-  width: 1250px;
+  width: 1300px;
   margin: 0 auto;
-  margin-bottom: 50px;
+
 }
 
 div.topimg img{
-  background-color: #111;
+  background-color: #222;
   height: inherit;
   width: inherit;
 }
 
+div.mainimg{
+  width: 1350px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
 div.mainimg img{
-height: 200px;
-width: auto;
-margin: 0 auto;
+height: auto;
+width: inherit;
+}
+
+div.description{
+  margin: 0 auto;
+  height: auto;
+  width: 800px;
+}
+div.description p{
+  font-size: 24px;
+  color: #222;
+  text-align: center;
+}
+
+div.downloadtext{
+  margin: 0 auto;
+  height:auto;
+  width:600px;
+}
+
+div.downloadtext p{
+  font-size: 28px;
+  color: #222;
+  text-align: center;
+  font-weight: 200;
+}
+
+div.buttons{
+  margin: 0 auto;
+  height: auto;
+  width: 500px;
+}
+
+div.buttons div{
+  background-color: green;
+  height:100px;
+  width:200px;
+  float: left;
+  border: 5px;
+  border-color: black;
+
 }
