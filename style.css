@@ -31,6 +31,7 @@ div.mainimg{
   width: 1300px;
   margin: 0 auto;
   margin-bottom: 50px;
+  border: 25px;
 }
 div.mainimg img{
 height: auto;
@@ -97,9 +98,14 @@ div.buttons P#bottomright, div.buttons p#bottomleft{
   margin: 7px;
 }
 
+footer{
+  height: 150px;
+  width: 1300px;
+  background-color: #333;
+}
 
-section#temp{
+section#bottomspace{
   background-color: white;
-  height:800px;
+  height:250px;
   width:250px;
 }
