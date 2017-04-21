@@ -43,7 +43,7 @@ div.description{
   height: auto;
   width: 800px;
 }
-div.description p{
+.description p{
   font-size: 24px;
   color: #333;
   text-align: center;
@@ -64,7 +64,7 @@ div.downloadtext p{
 
 div.buttons{
   margin: 0 auto;
-  height: auto;
+  height: 100px;
   width: 520px;
 }
 
@@ -85,7 +85,7 @@ div.buttons div#right{
 
 div.buttons p{
  color: white;
- text-align: center
+ text-align: center;
 }
 
 div.buttons p#topleft, div.buttons p#topright{
@@ -98,14 +98,30 @@ div.buttons P#bottomright, div.buttons p#bottomleft{
   margin: 7px;
 }
 
+#seconddescr p{
+  font-size: 22px;
+}
+
 footer{
-  height: 150px;
+  height: 240px;
   width: 1300px;
+  margin: 0 auto;
   background-color: #333;
 }
 
-section#bottomspace{
-  background-color: white;
-  height:250px;
-  width:250px;
+.footdiv{
+  height:inherit;
+  width: 900px;
+  margin: 0 auto;
+  background-color: #333;
+}
+
+.footdiv p{
+color: white;
+}
+
+.footdiv img{
+  margin-top: 15px;
+  width: 400px;
+  height: auto;
 }
