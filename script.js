@@ -4,11 +4,11 @@
   let img = doc.querySelector(".mainimg");
 
 img.addEventListener("mouseover",function(){
-  img.style.borderColor = "#00ff00";
+  img.style.border-color = "#00ff00";
 });
 
 img.addEventListener("mouseout",function(){
-  img.style.borderColor = "ffffff";
+  img.style.border-color = "ffffff";
 });
 
 })();
@@ -49,12 +49,14 @@ rightbutton.addEventListener("mouseout",function(){
   let phome = doc.querySelector("#phome");
 
 phome.addEventListener("mouseover",function(){
-  phome.style.border-bottom = "1px solid white";
+  phome.style.text-decoration: "underline";
+  phome.style.text-decoration-color: "currentColor";
 
 });
 
 phome.addEventListener("mouseout",function(){
-  phome.style.border-bottom = "0";
+  phome.style.text-decoration: "none";
+  phome.style.text-decoration-color: "currentColor";
 
 });
 
