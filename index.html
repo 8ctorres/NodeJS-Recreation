@@ -7,40 +7,42 @@
   </head>
   <body>
 
-    <header>
- <div class="topimg">
+<header>
+  <div id="topspacer"></div>
+  <div class="topimg">
    <img src="http://nodejs.org/static/images/logo.svg" alt="">
-</div>
-<div id="divnav">
- <nav>
+ </div>
+ <div id="divnav">
+   <nav>
     <a id="phome">Home</a>
-    <a>|</a>
+    <a class="navspacer"> | </a>
     <a id="pabout">About</a>
-    <a>|</a>
+    <a class="navspacer"> | </a>
     <a id="pdownloads">Downloads</a>
-    <a>|</a>
+    <a class="navspacer"> | </a>
     <a id="pdocs">Docs</a>
-    <a>|</a>
+    <a class="navspacer"> | </a>
     <a id="pfoundation">Foundation</a>
-    <a>|</a>
+    <a class="navspacer"> | </a>
     <a id="pgetinvolved">Get involved</a>
-    <a>|</a>
+    <a class="navspacer"> | </a>
     <a id="psecurity">Security</a>
-    <a>|</a>
+    <a class="navspacer"> | </a>
     <a id="pnews">News</a>
 </nav>
 </div>
     </header>
 
 <div class="mainimg">
- <img src="background.jpg" alt="">
+ <img id="backimg" src="http://nodejs.org/static/images/interactive/background.jpg" alt="">
+ <img id="frontimg" src="https://nodejs.org/static/images/interactive/nodejs-interactive.png" alt="">
 </div>
 
-<div class="description" id="firstdescr">
-  <p>Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an
+<div class="description" id="firstdescription">
+  <a>Node.js® is a JavaScript runtime built on </a><a id="chrome">Chrome's V8 JavaScript engine</a><a>. Node.js uses an
     event-driven, non-blocking I/O model that makes it lightweight and efficient.
-    Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
-  </p>
+    Node.js' package ecosystem, </a><a id="npm">npm</a><a>, is the largest ecosystem of open source libraries in the world.
+  </a>
 </div>
 
 <div class="downloadtext">
@@ -58,18 +60,39 @@
   </div>
 </div>
 
-<div class="description" id="seconddescr">
-  <p>Or have a look at the LTS schedule.</p>
+<div class="textunderbuttons">
+    <a id="otherleft">Other Downloads</a>
+    <a> | </a>
+    <a id="changelogleft">Changelog</a>
+    <a> | </a>
+    <a id="apileft">API Docs</a>
+    <a>   </a>
+    <a id="otherright">Other Downloads</a>
+    <a> | </a>
+    <a id="changelogright">Changelog</a>
+    <a> | </a>
+    <a id="apiright">API Docs</a>
+</div>
+
+<div class="description" id="seconddescription">
+  <p>Or have a look at the </a><a id="ltsschedule">LTS schedule.</a>
 </div>
 
 <footer>
-<div class="footdiv">
-  <img src="https://nodejs.org/static/images/lfcp.png" alt="">
-  <p>© 2017 Node.js Foundation. All Rights Reserved. Portions of this site originally © 2017 Joyent.</p>
-  <p>Node.js is a trademark of Joyent, Inc. and is used with its permission. Please review the Trademark Guidelines of the Node.js Foundation.</p>
+  <div class="topfootdiv">
+  <a id="reportnodejs">Report Node.js issue</a>
+  <a> | </a>
+  <a id="reportwebsite">Report website issue</a>
+  <a> | </a>
+  <a id="gethelp">Get Help</a>
+  </div>
+  <div class="footdiv">
+  <img src="http://nodejs.org/static/images/lfcp.png" alt="">
+  <p id="firstfooterp">© 2017 Node.js Foundation. All Rights Reserved. Portions of this site originally © 2017 Joyent.</p>
+  <a>Node.js is a trademark of Joyent, Inc. and is used with its permission. Please review the</a> <a id="trademarkguidelines">Trademark Guidelines of the Node.js Foundation</a><a>.</a>
   <p>Linux Foundation is a registered trademark of The Linux Foundation.</p>
-  <p>Linux is a registered trademark of Linus Torvalds.</p>
-  <p>Node.js Project Licensing Information.</p>
+  <a>Linux is a registered </a><a id="trademark">trademark</a><a> of Linus Torvalds.</a>
+  <p></p> <a id="nodejslicensing">Node.js Project Licensing Information</a><a>.</a>
 </div>
 </footer>
 
