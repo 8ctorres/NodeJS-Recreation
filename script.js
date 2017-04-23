@@ -49,9 +49,7 @@ rightbutton.addEventListener("mouseout",function(){
   let phome = doc.querySelector("#phome");
 
 phome.addEventListener("mouseover",function(){
-  phome.style.opacity = "0.5";
-  phome.style.fontSize = "2px";
-  phome.style.textDecoration = "underline white";
+  phome.style.textDecoration = "underline";
 
 });
 
