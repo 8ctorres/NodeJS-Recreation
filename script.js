@@ -4,11 +4,11 @@
   let img = doc.querySelector(".mainimg");
 
 img.addEventListener("mouseover",function(){
-  img.style.borderColor = "#00ff00";
+  img.style.border = "20px solid green";
 });
 
 img.addEventListener("mouseout",function(){
-  img.style.borderColor = "#ffffff";
+  img.style.border = "20 solid white";
 });
 
 })();
