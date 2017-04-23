@@ -2,9 +2,16 @@ header{
   margin-bottom: 25px;
 }
 
-nav{
+div#divnav{
   height: 50px;
   width: 1300px;
+  margin: 0 auto;
+  background-color: #333;
+}
+
+nav{
+  height: inherit;
+  width: 570px;
   margin: 0 auto;
   background-color: #333;
 }

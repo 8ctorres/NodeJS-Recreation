@@ -49,11 +49,13 @@ rightbutton.addEventListener("mouseout",function(){
   let phome = doc.querySelector("#phome");
 
 phome.addEventListener("mouseover",function(){
-  phome.style.underline =
+  phome.style.border-bottom = "1px solid white";
+
 });
 
 phome.addEventListener("mouseout",function(){
-  phome.style.underline =
+  phome.style.border-bottom = "0";
+
 });
 
 })();
