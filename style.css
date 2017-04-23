@@ -1,5 +1,5 @@
 header{
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 div#divnav{
@@ -37,12 +37,12 @@ div.topimg img{
 div.mainimg{
   width: 1300px;
   margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 div.mainimg img{
 height: auto;
-width: inherit;
-margin-bottom: 50px;
+width: 1259px;
 border: 20px solid white;
 
 }
