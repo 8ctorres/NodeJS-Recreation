@@ -21,6 +21,10 @@ nav a{
   color: white;
 }
 
+#phome{
+text-decoration: underline white;
+}
+
 div.topimg{
   height: 150px;
   width: 1300px;
