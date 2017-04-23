@@ -37,13 +37,13 @@ div.topimg img{
 div.mainimg{
   width: 1300px;
   margin: 0 auto;
-  margin-bottom: 50px;
-  border: 20px solid green;
 }
 
 div.mainimg img{
 height: auto;
 width: inherit;
+margin-bottom: 50px;
+border: 20px solid white;
 
 }
 

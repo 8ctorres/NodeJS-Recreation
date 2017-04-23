@@ -1,14 +1,14 @@
 (function(){
 //green border around main image when mouse over it
   const doc = document;
-  let img = doc.querySelector(".mainimg");
+  let img = doc.querySelector(".mainimg img");
 
 img.addEventListener("mouseover",function(){
   img.style.border = "20px solid green";
 });
 
 img.addEventListener("mouseout",function(){
-  img.style.border = "20 solid white";
+  img.style.border = "20px solid white";
 });
 
 })();
