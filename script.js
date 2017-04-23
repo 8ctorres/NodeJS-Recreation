@@ -50,8 +50,10 @@ rightbutton.addEventListener("mouseout",function(){
 
 phome.addEventListener("mouseover",function(){
   phome.style.textDecoration = "underline";
-  phome.style.textDecorationColor = "red";
+});
 
+phome.addEventListener("mouseout",function(){
+  phome.style.textDecoration = "none";
 });
 
 })();
@@ -61,4 +63,4 @@ phome.addEventListener("mouseover",function(){
 //    text-decoration-color: red;
 //}
 
-//https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-color
+//https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration
