@@ -44,12 +44,13 @@ rightbutton.addEventListener("mouseout",function(){
 })();
 
 (function(){
-
+//underline
   const doc = document;
   let phome = doc.querySelector("#phome");
 
 phome.addEventListener("mouseover",function(){
   phome.style.textDecoration = "underline";
+  phome.style.textDecorationColor = "red";
 
 });
 
