@@ -38,11 +38,14 @@ div.mainimg{
   width: 1300px;
   margin: 0 auto;
   margin-bottom: 50px;
-  border: 25px;
 }
+
 div.mainimg img{
 height: auto;
 width: inherit;
+border: 25px;
+border-color: green;
+
 }
 
 div.description{
