@@ -61,3 +61,5 @@ phome.addEventListener("mouseover",function(){
 //    text-decoration: underline;
 //    text-decoration-color: red;
 //}
+
+//https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-color
