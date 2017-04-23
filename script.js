@@ -49,14 +49,9 @@ rightbutton.addEventListener("mouseout",function(){
   let phome = doc.querySelector("#phome");
 
 phome.addEventListener("mouseover",function(){
-  phome.style.text-decoration: "underline";
-  phome.style.text-decoration-color: "currentColor";
-
-});
-
-phome.addEventListener("mouseout",function(){
-  phome.style.text-decoration: "none";
-  phome.style.text-decoration-color: "currentColor";
+  phome.style.opacity = "0.5";
+  phome.style.text-decoration = "underline";
+  phome.style.text-decoration-color = "currentColor";
 
 });
 
