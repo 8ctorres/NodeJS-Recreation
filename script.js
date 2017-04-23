@@ -50,8 +50,8 @@ rightbutton.addEventListener("mouseout",function(){
 
 phome.addEventListener("mouseover",function(){
   phome.style.opacity = "0.5";
-  phome.style.font-size = "40px";
-  phome.style.text-decoration = "underline white";
+  phome.style.fontSize = "2px";
+  phome.style.textDecoration = "underline white";
 
 });
 
