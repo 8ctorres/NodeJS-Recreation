@@ -4,11 +4,11 @@
   let img = doc.querySelector(".mainimg");
 
 img.addEventListener("mouseover",function(){
-  img.style.border-color = "#00ff00";
+  img.style.borderColor = "#00ff00";
 });
 
 img.addEventListener("mouseout",function(){
-  img.style.border-color = "ffffff";
+  img.style.borderColor = "#ffffff";
 });
 
 })();
@@ -44,7 +44,7 @@ rightbutton.addEventListener("mouseout",function(){
 })();
 
 (function(){
-//underline
+//underline home in nav bar
   const doc = document;
   let phome = doc.querySelector("#phome");
 
@@ -58,9 +58,17 @@ phome.addEventListener("mouseout",function(){
 
 })();
 
-// .example {
-//    text-decoration: underline;
-//    text-decoration-color: red;
-//}
+(function(){
+//underline about in nav bar
+  const doc = document;
+  let phome = doc.querySelector("#pabout");
 
-//https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration
+pabout.addEventListener("mouseover",function(){
+  pabout.style.textDecoration = "underline";
+});
+
+pabout.addEventListener("mouseout",function(){
+  pabout.style.textDecoration = "none";
+});
+
+})();
